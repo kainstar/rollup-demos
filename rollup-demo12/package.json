@@ -1,0 +1,13 @@
+{
+  "name": "rollup-demo12",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node rollup.js",
+    "dev": "rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.45.2"
+  }
+}

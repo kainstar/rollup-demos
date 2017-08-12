@@ -1,0 +1,17 @@
+{
+  "name": "rollup-demo1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:amd": "rollup index.js -f amd -o ./dist/dist.amd.js",
+    "build:cjs": "rollup index.js -f cjs -o ./dist/dist.cjs.js",
+    "build:es": "rollup index.js -f es -o ./dist/dist.es.js",
+    "build:iife": "rollup index.js -f iife -n result -o ./dist/dist.iife.js",
+    "build:umd": "rollup index.js -f umd -n result -o ./dist/dist.umd.js",
+    "build:all": "npm run build:amd && npm run build:cjs && npm run build:es && npm run build:iife && npm run build:umd"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.45.2"
+  }
+}

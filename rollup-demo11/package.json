@@ -1,0 +1,15 @@
+{
+  "name": "rollup-demo11",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup -c --environment NODE_ENV:development",
+    "build": "rollup -c --environment NODE_ENV:production"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "rollup": "^0.45.2",
+    "rollup-plugin-replace": "^1.1.1",
+    "rollup-plugin-uglify": "^2.0.1"
+  }
+}

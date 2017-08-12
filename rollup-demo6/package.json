@@ -1,0 +1,17 @@
+{
+  "name": "rollup-demo6",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "rollup": "^0.45.2",
+    "rollup-plugin-commonjs": "^8.1.0",
+    "rollup-plugin-node-resolve": "^3.0.0"
+  },
+  "dependencies": {}
+}

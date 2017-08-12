@@ -1,0 +1,22 @@
+{
+  "name": "rollup-plugin-stylus",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "rollup -c test/rollup.config.js"
+  },
+  "main": "index.cjs.js",
+  "module": "index.es.js",
+  "jsnext:main": "index.es.js",
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^3.0.1"
+  },
+  "dependencies": {
+    "rollup-pluginutils": "^2.0.1",
+    "stylus": "^0.54.5"
+  }
+}

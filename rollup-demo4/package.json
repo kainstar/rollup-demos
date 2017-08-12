@@ -1,0 +1,17 @@
+{
+  "name": "rollup-demo4",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-rollup": "^3.0.0",
+    "rollup": "^0.45.2",
+    "rollup-plugin-babel": "^2.7.1"
+  },
+  "dependencies": {}
+}

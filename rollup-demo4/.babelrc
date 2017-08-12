@@ -1,0 +1,16 @@
+// 不使用babel-preset-es2015-rollup的配置
+// {
+//     "presets": [
+//         ["es2015", {
+//             "modules": false
+//         }]
+//     ],
+//     "plugins": [
+//         "external-helpers"
+//     ]
+// }
+
+// 使用babel-preset-es2015-rollup的配置
+{ 
+    "presets": ["es2015-rollup"]
+}
